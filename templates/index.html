@@ -3,8 +3,9 @@
 {% block main_content %}
 
 <section>
-    {{ habits }}
-    <p>scascsd</p>
+    {% for habit in habits%}
+        <p>{{habit}}</p>
+    {%endfor%}
 </section>
 
 {% endblock %}
