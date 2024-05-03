@@ -9,7 +9,8 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.header, .main{
+.header,
+.main{
     text-align: center;
     max-width: 40rem;
     margin: 0 auto;
@@ -20,13 +21,14 @@ body {
     display: flex;
     background: black;
     color: white;
-    justify-content:  sapce-between;
+    justify-content:  space-between;
     align-items: center;
     border-radius: 6px 6px 0px 0px;
 }
 
 .header__link{
     text-decoration: none;
+    font-size: inherit;
     color: inherit;
     transition: color 0.1s ease-in-out;
 }
@@ -41,7 +43,7 @@ body {
     font-size: 1.5rem;
 }
 
-.fomr{
+.form{
     display: flex;
     flex-direction: column;
     font-size: 1.1rem;
@@ -49,7 +51,7 @@ body {
 
 .form__input{
     padding: 1rem;
-    font-family: inherit;
+    font-family: "Inter";
     font-size: inherit;
     resize: none;
     border: 3px solid black;
@@ -58,7 +60,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.fomr__button{
+.form__button{
     font-size: inherit;
     background-color: #f9dba0;
     cursor: pointer;
