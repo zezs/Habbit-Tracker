@@ -7,4 +7,4 @@ This project is a habit tracker that utilizes a calendar interface. Users can se
 - Backend: Python, Flask
 - Database: MongoDB atlas
 
-Soon to be deployed
+## Soon to be deployed!
