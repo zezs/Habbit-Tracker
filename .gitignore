@@ -1,0 +1,5 @@
+#Ignore .env file
+.env
+
+# include .env.example file
+!.env.example
