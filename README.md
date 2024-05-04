@@ -5,5 +5,5 @@ This project is a habit tracker that utilizes a calendar interface. Users can se
 ## Technologies Used
 - Frontend: HTML5, CSS3, jinja
 - Backend: Python, Flask
-- Database: MongoDb atlas
+- Database: MongoDB atlas
 
